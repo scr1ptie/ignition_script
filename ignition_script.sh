@@ -20,4 +20,10 @@ sudo apt-get install -y nmap
 # install wireshark
 sudo apt-get install -y wireshark
 
+#install dcoker
+apt install docker.io
 
+# install openVAS
+apt-get install software-properties-common && add-apt-repository ppa:mrazavi/openvas
+ # docker run -d -p 443:443 --name openvas mikesplain/openvas
+ 
